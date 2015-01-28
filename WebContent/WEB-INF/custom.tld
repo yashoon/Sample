@@ -1,0 +1,28 @@
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>2.0</jsp-version>
+  <short-name>Example TLD</short-name>
+  <tag>
+    <name>Hello</name>
+    <tag-class>com.jason.sample.Customtag</tag-class>
+    <body-content>scriptless</body-content>
+    <attribute>
+    <name>message</name>
+      <required>true</required>
+    </attribute>
+    <attribute>
+    <name>value</name>
+      <required>false</required>
+    </attribute>
+  </tag>
+  <tag> 
+    <name>Connect</name>
+    <tag-class>com.jason.sample.Connect</tag-class>
+    <body-content>scriptless</body-content>
+  </tag>
+  <tag>
+  <name>yash</name>
+  <tag-class>com.jason.sample.Yash</tag-class>
+  <body-content>scriptless</body-content>
+  </tag>
+</taglib>
